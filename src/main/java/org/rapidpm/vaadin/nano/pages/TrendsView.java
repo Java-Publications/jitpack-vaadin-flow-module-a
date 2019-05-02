@@ -8,8 +8,9 @@ import com.vaadin.flow.router.Route;
 import org.rapidpm.vaadin.nano.MainLayout;
 
 
-@Route(value= TrendsView.NAV, layout = MainLayout.class)
-public class TrendsView extends Composite<Div> {
+@Route(value = TrendsView.NAV, layout = MainLayout.class)
+public class TrendsView
+    extends Composite<Div> {
   public static final String NAV = "trends";
 
 

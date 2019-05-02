@@ -7,8 +7,9 @@ import com.vaadin.flow.router.Route;
 import org.rapidpm.vaadin.nano.MainLayout;
 
 
-@Route(value= ProfileView.NAV, layout = MainLayout.class)
-public class ProfileView extends Composite<Div> {
+@Route(value = ProfileView.NAV, layout = MainLayout.class)
+public class ProfileView
+    extends Composite<Div> {
   public static final String NAV = "profile";
 
   public ProfileView() {
