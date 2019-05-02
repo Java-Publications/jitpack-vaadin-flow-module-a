@@ -123,11 +123,11 @@
       <version>${undertow.version}</version>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>io.undertow</groupId>-->
-<!--      <artifactId>undertow-websockets-jsr</artifactId>-->
-<!--      <version>${undertow.version}</version>-->
-<!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>io.undertow</groupId>-->
+    <!--      <artifactId>undertow-websockets-jsr</artifactId>-->
+    <!--      <version>${undertow.version}</version>-->
+    <!--    </dependency>-->
 
     <!--Vaadin -->
     <dependency>
@@ -139,6 +139,13 @@
       <groupId>com.vaadin</groupId>
       <artifactId>vaadin-app-layout-flow</artifactId>
       <version>${vaadin-app-layout-flow.version}</version>
+    </dependency>
+
+    <!--Demo Coponent for this article-->
+    <dependency>
+      <groupId>com.github.java-publications</groupId>
+      <artifactId>jitpack-vaadin-flow-module-b</artifactId>
+      <version>master-SNAPSHOT</version>
     </dependency>
 
 
@@ -176,7 +183,7 @@
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <manifestEntries>
-                    <Main-Class>org.rapidpm.vaadin.nano.CoreUIService</Main-Class>
+                    <Main-Class>demo.CoreUIService</Main-Class>
                   </manifestEntries>
                 </transformer>
               </transformers>
